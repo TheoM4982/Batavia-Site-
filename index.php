@@ -1,5 +1,5 @@
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
-<div class="container-fluid ship-bg img-responsive "> <!--Key Image--> 
+<section class="container-fluid ship-bg img-responsive "> <!--Key Image--> 
     <div class="container tagline"> 
     <!--key img and tagline container -->
     <!--Div that holds the content in the middle of the page-->
@@ -12,11 +12,11 @@
     <!--the main tag line-->
 
 </div>
-    </div> 
+    </section> 
 
 <!--key img and tagline container -->
 
-<div class="container-fluid whats-on"> <!--What's On Div -->
+<section class="container-fluid whats-on"> <!--What's On Div -->
     <div class="container"> 
     
     <div class="text-center "> <!--Title -->
@@ -62,9 +62,9 @@
     </div> <!--Tour bookings column-->
     </div> <!--Row-->
     </div> <!--What's On Div -->
-    </div>
+    </section>
 
-<div class="fluid-container img-responsive testimonials"> <!--Testimonials -->
+<section class="container-fluid img-responsive testimonials"> <!--Testimonials -->
     <h1 class="text-center testimonials-title"> Testimonials</h1>
    <div class="container">
   <div class="row">
@@ -94,10 +94,10 @@
 </div>
  
     </div> 
-    </div> <!--Testimonials -->
+    </section> <!--Testimonials -->
     
     
-    <div class="fluid-container  location"> <!--Location -->
+    <section class="container-fluid  location"> <!--Location -->
     <h1 class="text-center location-title"> Location </h1>
    <div class="container"> <!--Container -->
   <div class="row">
@@ -137,5 +137,5 @@
 
 </div>
  
-    </div>  <!--Container -->
+    </section>  <!--Container -->
 <?php get_footer(); /* Tells WordPress to include footer.php */ ?>
