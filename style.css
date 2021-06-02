@@ -1,0 +1,783 @@
+.navbar {
+    background-color: #2E424D;
+    font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0px;
+}
+
+.nav-top {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    font-family: tinos, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.batavia-title {
+    color: #DCE3E7;
+    margin-bottom: 5%;
+
+}
+
+.navbar-center .navbar-nav > li > a {
+    color: #88BFDE;
+}
+
+.tagline {
+    font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #DCE3E7;
+    font-size: 80px;
+    text-align: right;
+    padding-top: 4%;
+    padding-right: 2%;
+    padding-bottom: 0;
+     text-shadow: 2px 2px 1px #000000;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.ship-bg {
+  background-image: url(images/ship-bg.jpg);
+    min-height: 90%;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 05%;
+    margin-bottom: 0%;
+}
+
+
+.main-btn {
+    background-color: #DB5523;
+    
+    margin-left: 0%;
+    margin-right: 3.5%;
+       border-radius: 8px;
+    
+  
+
+}
+
+.btn-text {
+    font-family: liberation-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #DCE3E7;
+    text-align: center;
+    font-size: 1.45em;
+       margin-top: 10px;
+    text-shadow: none;
+}
+
+
+.footer-img {
+    background-image: url(images/batavia-footer.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+    
+    
+}
+.rectangle {
+    background-color: #B43F3F;
+    height: 50px;
+    width: 100px;
+}
+
+.whats-on {
+    background-color: #2E424D;
+    padding-bottom: %;
+    padding-top: 40px;
+    padding-bottom: 2%;
+}
+.whatson-btn{
+   background-color: #DB5523;
+    margin-top: 40px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding-left: 3px;
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+    
+}
+
+.whats-on-title {
+    color: #DCE3E7;
+    font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 0%;
+    padding-top: 1%;
+    font-size: 268.75%;
+    
+}
+
+.text-block {
+    margin-top: 5%;
+    background-image: url(images/Component%205%20%E2%80%93%201.png);
+    text-align: justify;
+}
+
+.pull-quote {
+    color: #FFF8F8;
+    font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    font-size: 137.5%;
+    margin-left: 2%;
+}
+
+
+.pull-img {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.whats-on-subtitles {
+    font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #DCE3E7;
+    letter-spacing: 1px;
+    padding-left: 5%;
+    font-size: 30px;
+    /*change to em*/
+}
+
+.whats-on-para {
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 2%;
+    font-size: 20px;
+    font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #DCE3E7;
+}
+.location{
+    background-color: #88BFDE;
+    
+}
+
+.location-img{
+    
+    text-align:center;
+       margin-left: 18%;
+    margin-right: auto;
+    
+}
+.location-title {
+    text-align: center;
+    margin-top: 0;
+     font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2E424D;
+    padding-top: 20px;
+}
+.menu-nav {
+    
+    float: right;
+    margin-top: 20px;
+    color: #88BFDE;
+    
+    font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+        font-size: 15px;
+    }
+
+.museum-details {
+     font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+     color: #2E424D;
+    font-size:14px;
+    
+}
+.pull-img {
+    text-align:center;
+}
+.testimonials {
+ 
+    background-image: url(images/test-bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 120%;
+    padding-bottom:40px;
+}
+.testimonials-names {
+    color: #FFF5F5;
+     font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    float:left;
+    
+}
+
+.testimonials-title{
+    color:#88BFDE;
+    font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 43px;
+    padding-top: 2%;
+    margin-top: 0%;
+    
+    
+}
+
+.testimonials-text{
+     color:#FFF5F5;
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    float: left;
+    
+}
+.directions-btn {
+        background-color: #DB5523;
+    margin-top: 40px;
+    /* margin-right: 150px; */
+    margin-bottom: 10px;
+    /* margin-left: 0px; */
+    padding-left: 3px;
+    padding-right: 1px;
+    padding-top: 2px;
+    /* padding-bottom: 2px; */
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+}
+
+.footer-socialmedia{
+    color:#DCE3E7;
+    border-color: #707070;
+    border: 0.25px;
+     font-family: liberation-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+   text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+    font-size: 17px;
+}
+
+.footer-title{
+    color:#DCE3E7;
+    font-family: tinos, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top:1%;
+    
+}
+
+.footer-details{
+    color:#DCE3E7;
+    font-family: tinos, serif;
+    font-weight: 400;
+    font-style: normal;
+        margin-bottom: 0px;
+}
+.footer-icons{
+    text-align: center;
+}
+.copyright{
+     font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+        color:#DCE3E7;
+padding-top: 50px;
+    float: right;
+}
+.navbar-footer{
+    background:transparent;
+    border: 0px;
+    font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 0%;
+    margin-right: 0%;
+   font-stretch: expanded;
+    font-size:17px;
+    display: flex;
+justify-content: center;
+color:#DCE3E7;
+    margin-bottom: 0px;
+    
+}
+.navbar-footer-text{
+    
+        
+color:#DCE3E7;
+}
+.footer-nav{
+}
+.blog-bg {
+    background-image: url(images/blog-bg1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 100%;
+    padding-bottom: 20%;
+    
+}
+
+.blog-tagline {
+    font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #DCE3E7;
+    font-size: 65px;
+    text-align: center;
+    text-shadow: 1px 3px 6px #000000;
+    padding-top:6%;
+}
+
+.posts-title{
+    font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align:left;
+    color: #88BFDE;
+    font-size:75px;
+}
+
+.post-para{
+    font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #DCE3E7;
+    font-size: 28px;
+    
+}
+
+.posts-bg{
+        background-image: url(images/postsbg1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 100%;
+}
+.post-titles{
+     font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #88BFDE;
+    font-size: 50px;
+    
+}
+
+.post-new {
+    font-family: liberation-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #DCE3E7;
+    font-size: 38px;
+    
+    
+}
+
+.post-old{
+    font-family: liberation-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #DCE3E7;
+    font-size: 30px;
+}
+.post-para-old{
+    font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #DCE3E7;
+    font-size: 25px;
+}
+.older-posts{
+    padding-top: 2%;
+}
+.material-col{
+    padding-top:2%;
+    padding-bottom: 5%;
+    }
+
+.exhibitinfo-tagline{
+    font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 60px;
+        color: #DCE3E7;
+    
+    
+}
+.exhibit-bg{
+     background-image: url(images/exhibitinfobg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 100%;
+    padding-bottom: 20%;
+    padding-top: 15%;
+}
+.history-bg{
+    background-image: url(images/historybg1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 100%;
+}
+.history-title{
+    font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 45px;
+    color:#88BFDE;
+    
+}
+.history-para{
+    font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #DCE3E7;
+    font-size: 30px;
+    padding-top: 2%;
+    
+}
+.history-list{
+    font-family: tinos, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #DB5523;
+    font-size: 34px;
+    text-align: center;
+    
+}
+.historybtn-above{
+    font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #DCE3E7;
+    font-size: 34px;
+    text-align: center;
+    
+    
+}
+.history-row{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.history-btn{
+       background-color: #DB5523;
+    margin-top: 40px;
+    margin-right: 160px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+    padding-left: 3px;
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+}
+.tour-details{
+    font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    color:#88BFDE;
+    text-align: left;
+    padding-left: 2%;
+    
+}
+
+.details-para-left{
+    font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0px;
+    color:  #DCE3E7;
+    font-size: 121%;
+    text-align: center;
+}
+.details-titles{
+    font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    color:#DCE3E7;
+    text-align: center;
+    padding-left: 2%;
+    
+}
+.detailsbg{
+    background-image: url(images/details-bg1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 20%;
+    padding-bottom:  9%;
+    padding-top:  5%;
+    
+}
+.navbar a:hover, .footernav ul li a:hover {
+    background: transparent;
+}
+
+
+.navbar-footer-text{
+       color: #DCE3E7;
+   border-color: none; */
+   border:0px ; */
+    font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* text-shadow: 1px 1px 1px #000000; */
+    text-align: center;
+    font-size: 17px;
+}
+    
+
+
+..navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #88BFDE;}
+
+.navbar-inverse .navbar-brand {
+    color: #DCE3E7;}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #88BFDE;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a: {
+     color: #fff; 
+    background-color: #080808; 
+}
+    
+.read-more{
+    font-family: liberation-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0px;
+    color:  #CCA341;
+    font-size: 24px;
+    text-align: right;
+}
+
+
+
+.post-imgs{
+    padding-left:10%;
+    text-align: center;
+}
+.row {
+     margin-right: -15px; 
+    margin-left: -15px;}
+
+.details-btn{
+        background-color: #DB5523;
+    margin-top: 40px;
+   margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+  
+    padding-left: 3px;
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+}
+.details-para-right{
+     font-family: liberation-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0px;
+    color:  #DCE3E7;
+    font-size: 121%;
+    text-align: center;
+}
+
+.details-titles-right{
+     font-family: tinos, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    color:#DCE3E7;
+    text-align: center;
+    padding-left: 2%
+}
+
+
+.details-directions{
+    padding-top:2%;
+    text-align: center;
+        
+    }
+
+.map {
+    padding-top: 64%;
+    text-align: center;
+}
+
+.link 
+{ color: #88BFDE; }
+/* CSS link color (red) */
+.link:hover
+{ color: #DB5523; }
+/* CSS link hover (green) */
+
+.footer-links{
+    color: #DCE3E7;}
+    .footer-links:hover{ color:
+         #DB5523;
+    }
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #88BFDE;
+    background-color: 
+}
+
+
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+  .tagline {
+    font-size: 80px;
+  }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 768px) {
+  .tagline {
+    font-size: 60px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 768px) {
+  .tagline {
+    font-size: 60px;
+  }
+}
+
+/* Extra small devices (phones, 360px and down) */
+@media only screen and (max-width: 360px) {
+    
+    .tagline {
+        text-align: center;
+    }
+    
+        .testimonials-text {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .testimonials-names{
+         ;
+        padding-left: 20px;
+    }
+    
+    .location{
+            text-align: center;
+    }
+    .location-img {
+        text-align: center;
+         margin-left:0px;}
+    
+    
+    .history-btn {
+    background-color: #DB5523;
+    margin-top: 40px;
+  margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: px;
+    /* padding-left: 3px; */
+    /* padding-right: 1px; */
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+        text-align: center;}
+    
+     .map{
+        padding-top: 20px;
+    }
+    }
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .tagline{
+       padding-right:5%;
+    }
+    .text-block{
+        padding-right: 30px;
+        padding-left: 20px;
+    }
+    
+    .testimonials-text {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    
+        
+    .location-img {
+        text-align: center;
+            margin-left: 104px;
+        
+    
+
+    }
+    .map{
+        padding-top: 20px;
+    }
+    
+    ...}
+
+/* Large devices (laptops/desktops, 1080px and up) */
+@media only screen and (min-width: 1080px) {
+    .details-col-right {
+        padding-top: 8.1%;
+    }
+    
+    
+   
+
+} 
