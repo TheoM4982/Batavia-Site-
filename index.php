@@ -23,11 +23,11 @@
 <?php
 global $more;//define a global variable
 $more = 0;// the global varibale is now equal to 0
-query_posts('cat=22');//look for posts that have the category of 2
+query_posts('cat=22');//look for posts that have the category of 22
 if(have_posts()) ://if we have posts to display
 while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 22 get thet title and content
 ?>
-<h4><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h4> 
+<h4 class="post-new"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h4> 
 <div><p class="post-para"><?php the_content() ?></p></div>
 <?php
 endwhile;
@@ -47,11 +47,19 @@ wp_reset_query();?>
  <div class="row older-posts"> <!--!--Older posts row-->-->
     <div class="col-md-8"> <!--Weapons Col-->
         
-        
-        <h4 class="post-old"> What weapons were used? </h4>
-            <p class="post-para-old"> Times are tough when it's everyone out on the wild sea. How did these seafarers defend themselves against others and the vast terrors in the wide embrace of the sea?</p>
-        <h4 class="read-more"> Read More</h4>
-      
+<?php
+global $more;//define a global variable
+$more = 0;// the global varibale is now equal to 0
+query_posts('cat=21');//look for posts that have the category of 22
+if(have_posts()) ://if we have posts to display
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 22 get thet title and content
+?>
+<h4 class="post-old"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h4> 
+<div><p class="post-para"><?php the_content() ?></p></div>
+<?php
+endwhile;
+endif;
+wp_reset_query();?>
       
       
       
@@ -64,11 +72,20 @@ wp_reset_query();?>
         <div class="row"> <!--!--Row-->--
     <div class="col-md-8 material-col"> <!--Delving into the material col-->
         
-        
-        <h4 class="post-old"> Delving into the material </h4>
-            <p class="post-para-old"> Find out exactly what materials they used on these ships, with some of the common uses ranging from a variety of things including bandaging...</p>
-        <h4 class="read-more"> Read More</h4>
-      
+    <?php
+global $more;//define a global variable
+$more = 0;// the global varibale is now equal to 0
+query_posts('cat=21');//look for posts that have the category of 21
+if(have_posts()) ://if we have posts to display
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 21 get thet title and content
+?>
+<h4 class="post-old"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h4>
+<div><p class="post-para-old"><?php the_content() ?></p></div>
+<h4 class="read-more"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h4>
+<?php
+endwhile;
+endif;
+wp_reset_query();?>
       
       
       
