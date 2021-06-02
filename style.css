@@ -1,3 +1,18 @@
+/*   
+Theme Name: Batavia Shipwreck
+Theme URI: http://joshwhitkin.com
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Theo McCrackan
+Author URI: http://joshwhitkin.com
+Version: 1
+*/ 
+
+
+
+
+
+
+
 .navbar {
     background-color: #2E424D;
     font-family: liberation-sans, sans-serif;
@@ -674,110 +689,3 @@ color:#DCE3E7;
 
 
 
-
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 601px) {
-  .tagline {
-    font-size: 80px;
-  }
-}
-
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 768px) {
-  .tagline {
-    font-size: 60px;
-  }
-}
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 768px) {
-  .tagline {
-    font-size: 60px;
-  }
-}
-
-/* Extra small devices (phones, 360px and down) */
-@media only screen and (max-width: 360px) {
-    
-    .tagline {
-        text-align: center;
-    }
-    
-        .testimonials-text {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
-    .testimonials-names{
-         ;
-        padding-left: 20px;
-    }
-    
-    .location{
-            text-align: center;
-    }
-    .location-img {
-        text-align: center;
-         margin-left:0px;}
-    
-    
-    .history-btn {
-    background-color: #DB5523;
-    margin-top: 40px;
-  margin-right: 20px;
-    margin-bottom: 10px;
-    margin-left: px;
-    /* padding-left: 3px; */
-    /* padding-right: 1px; */
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border-radius: 8px;
-        text-align: center;}
-    
-     .map{
-        padding-top: 20%;
-    }
-    }
-
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .tagline{
-       padding-right:5%;
-    }
-    .text-block{
-        padding-right: 30px;
-        padding-left: 20px;
-    }
-    
-    .testimonials-text {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
-
-    
-        
-    .location-img {
-        text-align: center;
-            margin-left: 104px;
-        
-    
-
-    }
-    .map{
-        padding-top: 18%;
-    }
-    
-    ...}
-
-/* Large devices (laptops/desktops, 1080px and up) */
-@media only screen and (min-width: 1080px) {
-    .details-col-right {
-        padding-top: 8.1%;
-    }
-    
-    
-   
-
-} 
