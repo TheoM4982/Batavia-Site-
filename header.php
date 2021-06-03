@@ -48,12 +48,15 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav menu-nav">
-                        <li class="active "><a href="index.html">HOME</a></li>
-                        <li><a href="posts.html">POSTS</a></li>
-                        <li><a href="services.html#booknow">BOOK NOW</a></li>
-                        <li><a href="services.html">EXHIBIT INFORMATION</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                    </ul>
+<?php wp_nav_menu(array(
+        'menu' => 'Top menu',
+        'items_wrap'=>'%3$s',
+        'container' => false,
+        'list_item_class' => "nav-item",
+        'link_class' => "nav-link",
+        )); ?>
+</ul>
+
 
                 </div>
             </div>
