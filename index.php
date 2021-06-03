@@ -27,7 +27,7 @@ query_posts('cat=22');//look for posts that have the category of 22
 if(have_posts()) ://if we have posts to display
 while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 22 get thet title and content
 ?>
-<h4 class="post-new">"><?php the_title();?></h4> 
+<h4 class="post-new"><?php the_title();?></h4> 
 <div><p class="post-para"><?php the_content() ?></p></div>
 <?php
 endwhile;
@@ -54,7 +54,7 @@ query_posts('cat=21');//look for posts that have the category of 22
 if(have_posts()) ://if we have posts to display
 while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 22 get thet title and content
 ?>
-<h4 class="post-old">"><?php the_title();?></h4> 
+<h4 class="post-old"><?php the_title();?></h4> 
 <div><p class="post-para"><?php the_content() ?></p></div>
 <?php
 endwhile;
@@ -80,7 +80,7 @@ query_posts('cat=21');//look for posts that have the category of 21
 if(have_posts()) ://if we have posts to display
 while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 21 get thet title and content
 ?>
-<h4 class="post-old">"><?php the_title();?></h4>
+<h4 class="post-old"><?php the_title();?></h4>
 <div><p class="post-para-old"><?php the_content() ?></p></div>
 <h4 class="read-more"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h4>
 <?php
