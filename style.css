@@ -602,7 +602,7 @@ color:#DCE3E7;
     background-color: transparent;
 }
 
-.navbar-inverse .navbar-nav>.active>a .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a: {
+.navbar-inverse .navbar-nav>.active>a .navbar-inverse .navbar-nav>.active>a:focus{
      color: #fff; 
     background-color: #080808; 
 }
