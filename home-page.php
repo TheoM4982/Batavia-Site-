@@ -1,10 +1,15 @@
+<?php
+    /*
+    Template Name: Home page
+    */
+    ?>
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
 <section class="container-fluid ship-bg img-responsive ">
     <!--Key Image-->
     <div class="container tagline">
         <!--key img and tagline container -->
         <!--Div that holds the content in the middle of the page-->
-        <h1 class="tagline  text-center"> Discover the newest shipwreck in WA! </h1>
+<h1 class="tagline  text-center"><?php the_field('shiptagline'); ?></h1><!--  custom field for the shiptagline content-->
         <div class="main-btn  btn btn-lg ">
             <!--Button-->
             <a href="services.html" class="btn-text  "> <strong> Discover More </strong> </a>
