@@ -50,12 +50,12 @@
 
             <div class="col-md-4 pull-img image-center">
                 <!--Image and pull quote -->
-                <img src="<?php the_field('whatsonimg'); ?>">
+<img src="http://206.189.45.97/~mesh16/wp-content/themes/Batavia-Site-/images/whatson.jpg" class="center" alt="Ship Anchor">
 
                 <div class="text-block">
                     <!--Pull quote-->
 
-                    <p class="pull-quote text-block"><?php the_field('pullquote'); ?></p>
+                    <p class="pull-quote"><?php the_field('pullquote'); ?></p>
 
                 </div>
                 <!--Pull quote-->
@@ -76,7 +76,7 @@
                 <!--Paragraph-->
                 <div class="whatson-btn " button type="button">
                     <!--Button-->
-                    <h1 class="btn-text   "> <strong> </strong> </h1>
+<h1 class="btn-text"><?php the_field('discovermore'); ?></h1>
 
                 </div>
                 <!--Button-->
@@ -92,7 +92,7 @@
 
 <section class="container-fluid img-responsive testimonials">
     <!--Testimonials -->
-    <h1 class="text-center testimonials-title"> </h1>
+    <h1 class="text-center testimonials-title"><?php the_field('testimonialstitle'); ?></h1>
     <div class="container">
         <div class="row">
 
@@ -101,24 +101,24 @@
                 <div class="col-md-4">
                     <!--Belinda quote-->
 
-                    <p class="testimonials-text"></p>
-                    <h2 class="text-center testimonials-names"> </h2>
+                    <p class="testimonials-text"><?php the_field('testpara'); ?></p>
+                    <h2 class="testimonials-names"><?php the_field('testname1'); ?></h2>
                 </div>
                 <!--Belinda quote-->
 
                 <div class="col-md-4">
                     <!--Steve quote-->
 
-                    <p class="testimonials-text"> </p>
-                    <h2 class="text-center testimonials-names"></h2>
+                    <p class="testimonials-text"><?php the_field('testpara1'); ?></p>
+                    <h2 class="testimonials-names"><?php the_field('testname2'); ?></h2>
                 </div>
                 <!--Steve quote-->
 
                 <div class="col-md-4">
                     <!--Greg quote-->
 
-                    <p class="testimonials-text"> </p>
-                    <h2 class="text-center testimonials-names"></h2>
+                    <p class="testimonials-text"><?php the_field('testpara2'); ?></p>
+                    <h2 class="testimonials-names"><?php the_field('testname3'); ?></h2>
                 </div>
                 <!--Greg quote-->
 
@@ -133,7 +133,7 @@
 
 <section class="container-fluid  location">
     <!--Location -->
-    <h1 class="text-center location-title"> </h1>
+    <h1 class="text-center location-title"><?php the_field('locationtitle'); ?></h1>
     <div class="container">
         <!--Container -->
         <div class="row">
@@ -143,15 +143,16 @@
                 <div class="col-md-4">
                     <!--Address and Contact-->
 
-                    <p class="museum-details"> <strong> </strong> <em> </em> </p>
-                    <p class="museum-details"> <strong> </strong> <em> </em> </p>
-                    <p class="museum-details"> <strong> </strong> </p>
+                    <p class="museum-details"><?php the_field('address'); ?><strong> </strong> <em> </em></p>
+                    <p class="museum-details"><?php the_field('open'); ?></p>
+                    <p class="museum-details"><?php the_field('phone'); ?></p>
                 </div>
                 <!--Address and Contact-->
 
                 <div class="col-md-4 ;">
                     <!--Location Image -->
-                    <img src="http://206.189.45.97/~mesh16/wp-content/themes/Batavia-Site-/images/location-img.png" class=" location-img" alt="Front of Museum">
+                     <img src="http://206.189.45.97/~mesh16/wp-content/uploads/location-img.png" class="location-img" alt="Front of Museum">
+                    
 
 
                 </div>
@@ -159,16 +160,16 @@
 
                 <div class="col-md-4 text-center">
                     <!--Greg quote-->
-                    <p> <em> </em>
+                    <p> <em> Located right on the edge of Fremantle </em>
 
 
                     </p>
-                    <p> <em> </em>
+                    <p> <em> Right next to Bather’s Beach and Notre Dame University </em>
                     </p>
                     <div class="directions-btn text-center" button type="button">
 
-                        <!--Button-->
-                        <a href="https://www.google.com/maps/dir//47+Cliff+St,+Fremantle+WA+6160/@-32.0572338,115.7402089,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2a32a171b29aead5:0x90971f6b788b8166!2m2!1d115.7424029!2d-32.0572338" class="btn-text"> <strong></strong> </a>
+                        <!--Button--> 
+                        <a href="<?php the_field('directionsbuttonlink'); ?>" class="btn-text"><strong>Directions</strong> </a>
                     </div>
                 </div>
                 <!--Button-->
