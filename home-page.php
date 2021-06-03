@@ -9,10 +9,10 @@
     <div class="container tagline">
         <!--key img and tagline container -->
         <!--Div that holds the content in the middle of the page-->
-<h1 class="tagline text-center"><?php the_field('shiptagline'); ?></h1><!--  custom field for the aboutme content-->
+       <h1 class="tagline  text-center"><?php the_field('shiptagline'); ?></h1><!--  custom field for the shiptagline content-->
         <div class="main-btn  btn btn-lg ">
             <!--Button-->
-            <a href="services.html" class="btn-text  "> <strong> Discover More </strong> </a>
+            <a href="<?php the_field('taglinebutton'); ?>"class="btn-text  "> <strong> Discover More </strong> </a> <!--custom field for the button link-->
 
         </div>
         <!--Button-->
@@ -29,7 +29,7 @@
 
         <div class="text-center ">
             <!--Title -->
-            <h3 class="whats-on-title"> </h3>
+            <h3 class="whats-on-title"><?php the_field('whatsontitle'); ?></h3> <!--custom field for the title of what's on-->
         </div>
         <!--Title -->
 
@@ -37,11 +37,11 @@
             <!--Row-->
             <div class="col-md-4  ">
                 <!--New Exhibit Column-->
-                <h4 class="whats-on-subtitles"> <img src="http://206.189.45.97/~mesh16/wp-content/themes/Batavia-Site-/images/red-square.png" alt="Red Square"> </h4>
+                <h4 class="whats-on-subtitles"> <img src="http://206.189.45.97/~mesh16/wp-content/themes/Batavia-Site-/images/red-square.png" alt="Red Square"><?php the_field('newexhibittitle'); ?></h4> <!--Custom field for the title of new exhibit-->
                 <div class="paragraph whats-on-para">
                     <!--New Exhibit Paragraph-->
 
-                    <p> </p>
+                    <p><?php the_field('whatsonpara'); ?></p>
                 </div>
                 <!--New Exhibit Paragraph-->
 
@@ -50,12 +50,12 @@
 
             <div class="col-md-4 pull-img image-center">
                 <!--Image and pull quote -->
-                <img src=""class="center" alt="Ship Anchor">
+                <img src="<?php the_field('whatsonimg'); ?>">
 
-                <div class="text-block ">
+                <div class="text-block">
                     <!--Pull quote-->
 
-                    <p class="pull-quote"> </p>
+                    <p class="pull-quote text-block"><?php the_field('pullquote'); ?></p>
 
                 </div>
                 <!--Pull quote-->
@@ -67,10 +67,10 @@
             <div class="col-md-4 ">
                 <!--Tour bookings column-->
 
-                <h4 class="whats-on-subtitles"> <img src="http://206.189.45.97/~mesh16/wp-content/themes/Batavia-Site-/images/red-square.png" alt="red square"> </h4>
+                <h4 class="whats-on-subtitles"> <img src="http://206.189.45.97/~mesh16/wp-content/themes/Batavia-Site-/images/red-square.png" alt="red square"><?php the_field('tourbookings'); ?></h4>
                 <div class="paragraph whats-on-para ">
                     <!--Paragraph-->
-                    <p> </p>
+                    <p><?php the_field('whatsonpara1'); ?></p>
 
                 </div>
                 <!--Paragraph-->
