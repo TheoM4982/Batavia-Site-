@@ -14,10 +14,11 @@
 
 <!--key img and tagline container -->
     <section class="container-fluid posts-bg">  <!--Posts-->
-    <div class="container">  <!--Posts Container--
-   
-        
-  <div class="row"> <!--Exhibit Row-->
+    <div class="container">  <!--Posts Container-->
+<?php $post_id = 895;
+$queried_post = get_post($post_id);?>
+       
+        <div class="row"> <!--Exhibit Row-->
     <div class="col-md-8"> <!--New Exhibit Col-->
         
         
@@ -25,6 +26,7 @@
 <?php $post_id = 895;
 $queried_post = get_post($post_id);?>
 <h4 class="post-new"><?php echo $queried_post->post_title; ?></h4>
+<div><p class="post-para"><?php the_content() ?> </div>
 <?php echo $queried_post->post_excerpt; ?>
 <?php echo '<a class="read-more" href="'.get_permalink($queried_post).'"><br>Read More</a>';?>                      
 
@@ -34,14 +36,12 @@ $queried_post = get_post($post_id);?>
       
       </div> <!--New Exhibit Col-->
       
-    <div class="col-md-4 post-imgs"> 
+    <div class="col-md-4 post-imgs "> 
      <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?><!--New Exhibit Col Img-->
       
       </div> <!--!--New Exhibit Col Img-->-->
   </div> <!--Exhibit Row-->
-       <?php $post_id = 927;
-$queried_post = get_post($post_id);?>
-        <h3 class="post-titles"><?php echo $queried_post->post_title; ?></h3>
+        <h3 class="post-titles"> Older Posts</h3>
  <div class="row older-posts"> <!--!--Older posts row-->-->
     <div class="col-md-8"> <!--Weapons Col-->
 <?php $post_id = 927;
@@ -56,7 +56,8 @@ $queried_post = get_post($post_id);?>
       
 
       
-    <div class="col-md-4"> <!--Cannon image-->
+    <div class="col-md-4">
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?> <!--Cannon image-->
       
       </div> <!--Cannon image-->
   </div> <!--Older posts row-->
@@ -87,5 +88,8 @@ wp_reset_query();?>
       </div> <!--Materials Col-->
   </div> <!--Row-->
         </div> <!--Posts Container-->
+        </div>
+        </div>
+
     </section> <!--Posts-->
 <?php get_footer(); /* Tells WordPress to include footer.php */ ?>
