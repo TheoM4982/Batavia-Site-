@@ -3,7 +3,8 @@
     <div class="container posts-tagline"> 
     <!--key img and tagline container -->
     <!--Div that holds the content in the middle of the page-->
-        <h1 class="posts-title"> Posts </h1>
+        
+<h1 class="posts-title"> Posts </h1>
     <h2 class="blog-tagline  text-center"> Find out about the latest insights into the Batavia! </h2>
     
     <!--the main tag line-->
@@ -40,7 +41,7 @@ wp_reset_query();?>
       </div> <!--New Exhibit Col-->
       
     <div class="col-md-4"> <!--New Exhibit Col Img-->
-      <img class="post-imgs" src="images/new-exhibit.jpg" alt="ship at exhibit">
+      
       </div> <!--!--New Exhibit Col Img-->-->
   </div> <!--Exhibit Row-->
         <h3 class="post-titles"> Older Posts</h3>
@@ -66,7 +67,7 @@ wp_reset_query();?>
 
       
     <div class="col-md-4"> <!--Cannon image-->
-      <img class="post-imgs" src="images/cannon.jpg" alt="cannon">
+      
       </div> <!--Cannon image-->
   </div> <!--Older posts row-->
 
@@ -76,9 +77,9 @@ wp_reset_query();?>
 <?php
 global $more;//define a global variable
 $more = 0;// the global varibale is now equal to 0
-query_posts('cat=21');//look for posts that have the category of 21
+query_posts('cat=26');//look for posts that have the category of 26
 if(have_posts()) ://if we have posts to display
-while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 21 get thet title and content
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 26 get thet title and content
 ?>
 <h4 class="post-old"><?php the_title();?></h4>
 <div><p class="post-para-old"><?php the_content() ?></p></div>
@@ -92,7 +93,7 @@ wp_reset_query();?>
       
       </div> <!--Delving into the material col-->
     <div class="col-md-4 material-col "> <!--Materials Col-->
-      <img  class="post-imgs" src="images/materials.jpg" alt="materials">
+      
       </div> <!--Materials Col-->
   </div> <!--Row-->
         </div> <!--Posts Container-->
