@@ -9,7 +9,7 @@
     <div class="container tagline">
         <!--key img and tagline container -->
         <!--Div that holds the content in the middle of the page-->
-<h1 class="tagline  text-center"><?php the_field('shiptagline'); ?></h1><!--  custom field for the shiptagline content-->
+<h1 class="tagline text-center"><?php the_field('shiptagline'); ?></h1><!--  custom field for the aboutme content-->
         <div class="main-btn  btn btn-lg ">
             <!--Button-->
             <a href="services.html" class="btn-text  "> <strong> Discover More </strong> </a>
