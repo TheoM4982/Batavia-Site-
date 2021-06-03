@@ -21,46 +21,36 @@
     <div class="col-md-8"> <!--New Exhibit Col-->
         
         
-<?php
-global $more;//define a global variable
-$more = 0;// the global varibale is now equal to 0
-query_posts('cat=22');//look for posts that have the category of 22
-if(have_posts()) ://if we have posts to display
-while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 22 get thet title and content
-?>
-<h4 class="post-new"><?php the_title();?></h4> 
-<div><p class="post-para"><?php the_content() ?></p></div>
-<?php
-endwhile;
-endif;
-wp_reset_query();?>
-      
+<div class="col-md-4">
+<?php $post_id = 895;
+$queried_post = get_post($post_id);?>
+<h4 class="post-new"><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="read-more" href="'.get_permalink($queried_post).'"><br>Read More</a>';?>                      
+
+                </div>
       
       
       
       </div> <!--New Exhibit Col-->
       
-    <div class="col-md-4"> <!--New Exhibit Col Img-->
+    <div class="col-md-4 post-imgs"> 
+     <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?><!--New Exhibit Col Img-->
       
       </div> <!--!--New Exhibit Col Img-->-->
   </div> <!--Exhibit Row-->
-        <h3 class="post-titles"> Older Posts</h3>
+       <?php $post_id = 927;
+$queried_post = get_post($post_id);?>
+        <h3 class="post-titles"><?php echo $queried_post->post_title; ?></h3>
  <div class="row older-posts"> <!--!--Older posts row-->-->
     <div class="col-md-8"> <!--Weapons Col-->
-        
-<?php
-global $more;//define a global variable
-$more = 0;// the global varibale is now equal to 0
-query_posts('cat=21');//look for posts that have the category of 22
-if(have_posts()) ://if we have posts to display
-while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 22 get thet title and content
-?>
-<h4 class="post-old"><?php the_title();?></h4> 
-<div><p class="post-para"><?php the_content() ?></p></div>
-<?php
-endwhile;
-endif;
-wp_reset_query();?>
+<?php $post_id = 927;
+$queried_post = get_post($post_id);?>
+<h4 class="post-old"><?php echo $queried_post->post_title; ?></h4>
+<div><p class="post-para"><?php the_content() ?>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="read-more" href="'.get_permalink($queried_post).'"><br>Read More</a>';?>
+            
       
       
       
