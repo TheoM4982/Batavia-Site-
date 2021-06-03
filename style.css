@@ -149,6 +149,7 @@ Version: 1
 
 .pull-quote {
     color: #FFF8F8;
+    background-color: #B43F3F;
     font-family: liberation-sans, sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -244,6 +245,7 @@ Version: 1
     font-style: normal;
     font-size: 20px;
     float:left;
+    text-align: center;
     
 }
 
