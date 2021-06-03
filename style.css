@@ -400,6 +400,11 @@ color:#DCE3E7;
     font-size: 50px;
     
 }
+.icon-bar{
+    color: #88BFDE;
+    background-color: transparent;
+}
+
 
 .post-new {
     font-family: liberation-sans, sans-serif;
@@ -417,6 +422,7 @@ color:#DCE3E7;
     font-style: normal;
     color: #DCE3E7;
     font-size: 30px;
+    text-align: left;
 }
 .post-para-old{
     font-family: liberation-sans, sans-serif;
@@ -424,6 +430,7 @@ color:#DCE3E7;
     font-style: normal;
     color: #DCE3E7;
     font-size: 25px;
+    text-align: left;
 }
 .older-posts{
     padding-top: 2%;
